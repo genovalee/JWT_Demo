@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>Jwt_Demo</groupId>
+    <artifactId>Project1</artifactId>
+    <version>1.0-SNAPSHOT</version>
+    <description>Generated POM from JDeveloper for project Project1</description>
+    <build>
+        <sourceDirectory>src/</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>${basedir}</directory>
+                <includes>
+                    <include>*</include>
+                </includes>
+            </resource>
+        </resources>
+        <outputDirectory>classes/</outputDirectory>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>org.bitbucket.b_c</groupId>
+            <artifactId>jose4j</artifactId>
+            <version>0.4.1</version>
+        </dependency>
+    </dependencies>
+</project>
